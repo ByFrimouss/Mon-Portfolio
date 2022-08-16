@@ -1,0 +1,634 @@
+body {
+    width: 100%;
+    margin: 0em;
+    padding: 0em;
+    background-color: #320c30;
+}
+
+                                  /******************* HEADER ***********************/
+
+nav {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0em;
+    border-bottom-style: solid;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+    
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+  
+nav a:hover {
+    color: #e606b2;
+    border-bottom: 0.2em solid #e606b2;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 3em;
+    margin-left: 20em;
+    font-size: 1.4em;
+}
+
+li {
+    display: inline;
+    margin: 2em;
+}
+.logo-header {
+    margin-left: 4em;
+}
+
+.logo-header img {
+    width: 10em;
+}
+
+.img-header img {
+    width: 100%;
+    height: 67.5em;
+}
+
+                                        /****************** FIN DU HEADER **********************/
+
+hr {
+    width: 15em;
+    height: 1em;
+    background-color: #e606b2;
+    border: none;
+}
+
+                                        /****************** SECTION À PROPOS **********************/
+
+.à-propos {
+    color: #fff;
+    margin: 2em;
+}
+
+.à-propos h1 {
+    font-size: 6em;
+    margin-top: -6em;
+    margin-bottom: 5.5em;
+    text-align: center;
+    color: #000;
+}
+
+h1 strong {
+    color: #e606b2;
+}
+
+.gros-h2 {
+    font-size: 6em;
+    opacity: 20%;
+    color: #0c54bf;
+    text-align: center;
+}
+
+.petit-h2 {
+    font-size: 4em;
+    text-align: center;
+    margin-top: -3em;
+    margin-bottom: 2.5em;
+    color: #0c54bf;
+}
+
+.à-propos p {
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: justify;
+}
+
+.petit-para {
+    margin-right: 38em;
+}
+
+.Objectif img {
+    margin-left: 55em;
+    margin-top: -19em;
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.2em 0.4em rgb(0, 0, 0);
+}
+
+                                        /****************** FIN DE SECTION À PROPOS *********************/
+
+                                        /****************** SECTION NOTRE PARCOURS *********************/
+                                                /*************** USER-1 ***********************/
+
+.parcours {
+    margin-top: 10em;
+}
+
+.img-user1 img {
+    border-radius: 0.5em;
+    margin-left: 7em;
+    margin-top: 5em;
+    width: 26em;
+    height: 16em;
+    box-shadow: 0.2em 0.2em 0.4em;
+}
+
+.img-user1 :hover {
+    width: 30em;
+    height: 18em;
+}
+
+.h2-gros {
+    font-size: 6em;
+    opacity: 20%;
+    color: #0c54bf;
+    text-align: center;
+}
+
+.h2-petit {
+    font-size: 4em;
+    text-align: center;
+    margin-top: -3em;
+    margin-bottom: 2.5em;
+    color: #0c54bf;
+}
+
+button {
+    width: 10em;
+    height: 3em;
+    margin-left: 20em;
+    margin-top: 4em;
+    border: none;
+    border-radius: 0.5em;
+    background: #e606b2;
+    background: -webkit-linear-gradient(to right, #320c30, #e606b2);
+    background: linear-gradient(to right, #320c30, #e606b2);
+    box-shadow: 0.2em 0.2em 0.4em rgb(12, 84, 191);
+    cursor: pointer;
+}
+
+button em {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #fff;
+}
+
+                                /***************** BARRRE DE PROGRESSION 1 ****************/
+
+.barre-progress {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 1em;
+    margin: -24em 5em 10em 38em;
+}
+
+.bar {
+    width: 100%;
+    border-radius: 0.6em;
+    border: 0.1em solid rgb(255, 255, 255);
+    margin-top: 1em;
+    background-color: #0c54bf;
+}
+
+                            /****************** HTML 5 **************/
+.fa-html5 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 4em;
+    color: #EF6210;
+    margin-left: 0.6em;
+}
+
+.prog1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.progress-1 {
+    height: 2em;
+    width: 50%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-1 h3 {
+    font-size: 1em;
+    margin-left: 8em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                                    /****************** CSS 3 **************/
+.fa-css3-alt {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 4em;
+    color: #264de4;
+    margin-left: 0.6em;
+}
+
+.prog2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.progress-2 {
+    height: 2em;
+    width: 35%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-2 h3 {
+    font-size: 1em;
+    margin-left: 6em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                                /****************** JAVASCRIPT **************/
+.fa-js {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 4em;
+    color: #F0DB4F;
+    margin-left: 0.6em;
+}
+
+.prog3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.progress-3 {
+    height: 2em;
+    width: 20%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-3 h3 {
+    font-size: 1em;
+    margin-left: 3em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                                /****************** FIGMA ****************/
+.fa-figma {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: 4em;
+    color: #b67148 ;
+    margin-left: 0.6em;
+}
+
+.prog4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.progress-4 {
+    height: 2em;
+    width: 75%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-4 h3 {
+    font-size: 1em;
+    margin-left: 14em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                            /****************** WORDPRESS ****************/
+.fa-wordpress {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-size: 4em;
+    color: #21759b;
+    margin-left: 0.6em;
+}
+
+.prog5 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.progress-5 {
+    height: 2em;
+    width: 85%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-5 h3 {
+    font-size: 1em;
+    margin-left: 16em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                            /***************** BARRRE DE PROGRESSION 1 ****************/
+
+                            /*************** USER-2 ***********************/
+
+.barre-progress1 {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 1em;
+    margin: -24em 40em 10em 4em;
+}
+                            
+.bar {
+    width: 100%;
+    border-radius: 0.6em;
+    border: 0.1em solid rgb(255, 255, 255);
+    margin-top: 1em;
+    background-color: #0c54bf;
+}
+
+.img-user2 img {
+    border-radius: 0.5em;
+    margin-left: 60em;
+    margin-top: 5em;
+    width: 26em;
+    height: 16em;
+    box-shadow: 0.2em 0.2em 0.4em;
+}
+                            
+.img-user2 :hover {
+width: 30em;
+height: 18em;
+}
+
+.button1 {
+    width: 10em;
+    height: 3em;
+    margin-top: 4em;
+    margin-left: 82.5em;
+    border: none;
+    border-radius: 0.5em;
+    background: #e606b2;
+    background: -webkit-linear-gradient(to left, #320c30, #e606b2);
+    background: linear-gradient(to left, #320c30, #e606b2);
+    box-shadow: 0.2em 0.2em 0.4em rgb(12, 84, 191);
+    cursor: pointer;
+}
+
+button em {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #fff;
+}
+
+                                            /****************** PHOTOSHOP **************/
+ .fa-bezier-curve {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 4em;
+    color: #d9b500;
+    margin-left: 0.6em;
+}
+
+.prog6 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.progress-6 {
+    height: 2em;
+    width: 50%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-6 h3 {
+    font-size: 1em;
+    margin-left: 8em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                                    /****************** ILLUSTRATOR **************/
+.fa-palette {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 4em;
+    color: #bb36e7;
+    margin-left: 0.6em;
+}
+
+.prog7 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.progress-7 {
+    height: 2em;
+    width: 55%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-7 h3 {
+    font-size: 1em;
+    margin-left: 10em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                                /****************** SEO **************/
+.fa-yoast {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 4em;
+    color: #44c854 ;
+    margin-left: 0.6em;
+}
+
+.prog8 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.progress-8 {
+    height: 2em;
+    width: 70%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-8 h3 {
+    font-size: 1em;
+    margin-left: 12em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                                /****************** WORDPRESS ****************/
+.fa-wordpress {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: 4em;
+    color: #21759b ;
+    margin-left: 0.6em;
+}
+
+.prog9 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.progress-9 {
+    height: 2em;
+    width: 75%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-9 h3 {
+    font-size: 1em;
+    margin-left: 14em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+                            /****************** ELEMENTOR ****************/
+.fa-elementor {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-size: 4em;
+    color: #611624;
+    margin-left: 0.6em;
+}
+
+.prog10 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.progress-10 {
+    height: 2em;
+    width: 65%;
+    border-radius: 0.6em;
+    margin-top: -1em;
+    background-color: #e606b2;
+}
+
+.progress-10 h3 {
+    font-size: 1em;
+    margin-left: 12em;
+    padding-top: 0.4em;
+    font-weight: bold;
+    color: #fff;
+}
+                                 /****************** FIN DE SECTION PARCOURS *********************/
+
+                                 /****************** SECTION PORFOLIO *********************/
+
+.portfolio {
+    margin: 8em;
+}
+
+.h2gros {
+    font-size: 6em;
+    opacity: 20%;
+    color: #0c54bf;
+    text-align: center;
+}
+                                
+.h2petit {
+    font-size: 4em;
+    text-align: center;
+    margin-top: -3em;
+    margin-bottom: 2.5em;
+    color: #0c54bf;
+}
+
+.text {
+    color: #fff;
+    text-align: justify;
+}
+
+.working {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.work1 img {
+    border: 0.2em solid #44c854;
+    border-radius: 0.5em;
+    margin: 2em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.work2 img {
+    border: 0.2em solid #c84444;
+    border-radius: 0.5em;
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 30em;
+    height: 20em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.work3 img {
+    border: 0.2em solid #c17000;
+    border-radius: 0.5em;
+    margin: 4em;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.work4 img {
+    border: 0.2em solid #00eaff;
+    border-radius: 0.5em;
+    margin-top: 4em;
+    margin-left: 2em;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.work5 img {
+    border: 0.2em solid #0249ac;
+    border-radius: 0.5em;
+    width: 15em;
+    height: 15em;
+    margin-left: 10em;
+    margin-top: 4.5em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.work6 img {
+    border: 0.2em solid #fb00ff;
+    border-radius: 0.5em;
+    margin-left: 4.5em;
+    margin-top: 2em;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+                                    /****************** FIN DE SECTION PORTFOLIO *********************/
+
