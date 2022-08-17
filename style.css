@@ -77,7 +77,9 @@ hr {
 }
 
 h1 strong {
+    display: inline-block;
     color: #e606b2;
+    transition: all 0.3s ease;
 }
 
 .gros-h2 {
