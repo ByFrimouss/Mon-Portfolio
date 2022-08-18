@@ -49,7 +49,7 @@ li {
 
 .img-header img {
     width: 100%;
-    height: 67.5em;
+    height: 50em;
 }
 
                                         /****************** FIN DU HEADER **********************/
@@ -68,9 +68,9 @@ hr {
     margin: 2em;
 }
 
-.à-propos h1 {
-    font-size: 6em;
-    margin-top: -6em;
+.titre-header h1 {
+    font-size: 3em;
+    margin-top: -12em;
     margin-bottom: 5.5em;
     text-align: center;
     color: #000;
@@ -78,6 +78,8 @@ hr {
 
 h1 strong {
     color: #e606b2;
+    font-size: 3em;
+    text-shadow: 3px 3px 2px #000, 0 0 5em #000, 0 0 0.1em #000;
 }
 
 .gros-h2 {
@@ -91,25 +93,52 @@ h1 strong {
     font-size: 4em;
     text-align: center;
     margin-top: -3em;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.6em;
     color: #320c30;
 }
 
-.à-propos p {
+.grand-para {
     margin-left: 5em;
     margin-right: 5em;
     text-align: justify;
+    font-size: 1.2em;
 }
 
-.petit-para {
-    margin-right: 38em;
+.grand-para ::first-letter {
+    font-size: 8em;
+    color: #0561a4;
+}
+
+span {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #0c54bf, 0 0 0.2em #0c54bf;
+}
+
+.petit-para ::first-letter {
+    font-size: 8em;
+    color: #0561a4;
+}
+
+.petit-para{
+    margin-top: -2em;
+    margin-right: 33em;
+    margin-left: 5em;
+    font-size: 1.2em;
 }
 
 .Objectif img {
+    width: 28em;
+    height: 35em;
+    position: absolute;
     margin-left: 55em;
-    margin-top: -19em;
+    margin-top: -30em;
     border-radius: 0.5em;
-    box-shadow: 0.2em 0.2em 0.4em rgb(0, 0, 0);
+    box-shadow: 0.4em 0.4em 2em rgb(0, 0, 0);
+    background: #e0e0e0;       
+}
+
+.Objectif img:hover {
+    transform: perspective(50em) rotateY(-30deg); 
 }
 
                                         /****************** FIN DE SECTION À PROPOS *********************/
@@ -118,7 +147,7 @@ h1 strong {
                                                 /*************** USER-1 ***********************/
 
 .parcours {
-    margin-top: 10em;
+    margin-top: 14em;
 }
 
 .img-user1 img {
@@ -127,12 +156,11 @@ h1 strong {
     margin-top: 5em;
     width: 26em;
     height: 16em;
-    box-shadow: 0.2em 0.2em 0.4em;
+    box-shadow: 0.4em 0.4em 2em;
 }
 
 .img-user1 :hover {
-    width: 30em;
-    height: 18em;
+    transform: perspective(50em) rotateY(30deg); 
 }
 
 .h2-gros {
@@ -177,7 +205,8 @@ button em {
     grid-template-columns: 0.5fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 1em;
-    margin: -24em 5em 10em 38em;
+    margin: -24em 5em 10em 35em;
+    padding-right: 3.2em;
 }
 
 .bar {
@@ -185,7 +214,7 @@ button em {
     border-radius: 0.6em;
     border: 0.1em solid rgb(255, 255, 255);
     margin-top: 1em;
-    background-color: #0c54bf;
+    background-color: #0561a4;
 }
 
                             /****************** HTML 5 **************/
@@ -355,7 +384,7 @@ button em {
     border-radius: 0.6em;
     border: 0.1em solid rgb(255, 255, 255);
     margin-top: 1em;
-    background-color: #0c54bf;
+    background-color: #0561a4;
 }
 
 .img-user2 img {
@@ -368,8 +397,7 @@ button em {
 }
                             
 .img-user2 :hover {
-width: 30em;
-height: 18em;
+    transform: perspective(50em) rotateY(-30deg); 
 }
 
 .button1 {
@@ -565,8 +593,20 @@ button em {
 }
 
 .text {
+    font-size: 1.2em;
     color: #fff;
     text-align: justify;
+}
+
+.text ::first-letter {
+    font-size: 8em;
+    color: #0561a4;
+}
+
+.text1 {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+    color: #fff;
 }
 
 .working {
@@ -576,7 +616,6 @@ button em {
 }
 
 .work1 img {
-    border: 0.2em solid #44c854;
     border-radius: 0.5em;
     margin: 2em;
     grid-column: 1/2;
@@ -613,7 +652,7 @@ button em {
 }
 
 .work5 img {
-    border: 0.2em solid #0249ac;
+    border: 0.2em solid #0561a4;
     border-radius: 0.5em;
     width: 15em;
     height: 15em;
@@ -655,9 +694,10 @@ button em {
     color: #320c30;
 }
 
-.text1 {
+.text2 {
     color: #fff;
-    text-align: justify;
+    text-align: center;
+    font-size: 2em;
 }
 
 form {
@@ -672,7 +712,7 @@ form {
     border: 0.1em solid;
     border-radius: 1em;
     padding: 4em 12em 0em 4em;
-    background: #0c54bf;
+    background: #0561a4;
     box-shadow: inset 0.1em 0.1em 1em rgba(88, 129, 206, 0.1), inset -0.1em -0.1em 1em;
 }
                                     
@@ -705,7 +745,7 @@ form {
     background-color: #e606b2;
     border: none;
     box-shadow: inset 2px 2px 5px rgba(64, 54, 54, 0.2), inset 0px 0px 8px;
-    color: #ffffff
+    color: #000
 }
                                     
 .child3 input { /*Mail*/
@@ -782,11 +822,11 @@ form {
 footer a {
     text-decoration: none;
     color: #fff;
-    margin: 4em;
+    margin: 2.8em;
 }
                                     
 footer strong {
-    text-decoration: underline;
+    text-decoration: none;
 }
                                     
 footer ul {
