@@ -610,7 +610,7 @@ button em {
 .working {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .work1 img {
@@ -659,10 +659,30 @@ button em {
 
 .work6 img {
     border-radius: 0.5em;
+    width: 15.5em;
+    height: 15.5em;
     margin-left: 4.5em;
-    margin-top: 2em;
+    margin-top: 4.5em;
     grid-column: 3/4;
     grid-row: 2/3;
+}
+.work7 img {
+    border-radius: 0.5em;
+    width: 17em;
+    height: 23em;
+    margin-top: -2em;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.work8 img {
+    border-radius: 0.5em;
+    width: 20em;
+    height: 18em;
+    margin-left: 8em;
+    margin-top: 1em;
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 
                                     /****************** FIN DE SECTION PORTFOLIO *********************/
@@ -701,7 +721,7 @@ form {
 
 .formulaire {
     width: 50%;
-    height: 45em;
+    height: 40em;
     margin-top: 10em;
     border: 0.1em solid;
     border-radius: 1em;
@@ -773,7 +793,7 @@ form {
 .child5 textarea { /*Message*/
     border-radius: 0.5em;
     resize: none;
-    height: 4em;
+    height: 8em;
     padding-top: 1em;
     padding-left: 2em;
     margin-top: 2em;
