@@ -623,7 +623,7 @@ button em {
 }
 
 .work2 img {
-    border: 0.2em solid #c84444;
+    
     border-radius: 0.5em;
     margin-top: 3em;
     margin-left: 2em;
@@ -635,7 +635,6 @@ button em {
 }
 
 .work3 img {
-    border: 0.2em solid #c17000;
     border-radius: 0.5em;
     margin: 4em;
     grid-column: 3/4;
@@ -643,7 +642,6 @@ button em {
 }
 
 .work4 img {
-    border: 0.2em solid #00eaff;
     border-radius: 0.5em;
     margin-top: 4em;
     margin-left: 2em;
@@ -652,7 +650,6 @@ button em {
 }
 
 .work5 img {
-    border: 0.2em solid #0561a4;
     border-radius: 0.5em;
     width: 15em;
     height: 15em;
@@ -663,7 +660,6 @@ button em {
 }
 
 .work6 img {
-    border: 0.2em solid #fb00ff;
     border-radius: 0.5em;
     margin-left: 4.5em;
     margin-top: 2em;
