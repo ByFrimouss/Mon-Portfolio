@@ -127,14 +127,12 @@ span {
 }
 
 .Objectif img {
-    width: 28em;
-    height: 35em;
+    width: 35em;
+    height: 40em;
     position: absolute;
-    margin-left: 55em;
-    margin-top: -30em;
-    border-radius: 0.5em;
-    box-shadow: 0.4em 0.4em 2em rgb(0, 0, 0);
-    background: #e0e0e0;       
+    margin-left: 50em;
+    margin-top: -32em;
+         
 }
 
 .Objectif img:hover {
@@ -846,3 +844,5 @@ footer a:hover {
     color: #e606b2;
     border-bottom: 0.2em solid #e606b2;
 }
+
+
