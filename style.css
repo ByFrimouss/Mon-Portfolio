@@ -37,13 +37,16 @@ ul {
 
 li {
     display: inline;
-    margin: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
-.logo-header {
+.logo-header .logo {
     margin-left: 4em;
 }
 
-.logo-header img {
+.logo-header .logo {
     width: 10em;
 }
 
@@ -569,10 +572,11 @@ button em {
 }
                                  /****************** FIN DE SECTION PARCOURS *********************/
 
-                                 /****************** SECTION PORFOLIO *********************/
+                                 /****************** SECTION REALISATIONS *********************/
 
 .portfolio {
-    margin: 8em;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .h2gros {
@@ -594,6 +598,9 @@ button em {
     font-size: 1.2em;
     color: #fff;
     text-align: justify;
+    margin-top: -5em;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 .text ::first-letter {
@@ -604,86 +611,98 @@ button em {
 .text1 {
     font-size: 2.5em;
     margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
     color: #fff;
+    text-align: center;
 }
 
-.working {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+.section {
+    position: absolute;
+    width: 98%;
+    height: 48em;
+    margin-left: 1em;
+    display: flex;
+    border: 0.1em solid #000;
 }
 
-.work1 img {
-    border-radius: 0.5em;
+.section .slide {
+    position: relative;
+    background: #0561a4;
+    height: 100%;
+    flex: 1;
+    border-right: 0.1em solid #000;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+.section .slide .content p {
+    font-size: 1.2em;
+}
+
+.section .slide:last-child {
+    border-right: none;
+}
+
+.section .slide:hover {
+    flex-grow: 5;
+}
+
+.section .slide .img1 {
+    width: 45em;
+    height: 48em;
+}
+.section .slide .img2 {
+    width: 45em;
+    height: 48em;
+}
+.section .slide .img3 {
+    width: 45em;
+    height: 48em;
+}
+.section .slide .img4 {
+    width: 45em;
+    height: 48em;
+}
+.section .slide .img5 {
+    width: 45em;
+    height: 48em;
+}
+.section .slide .img6 {
+    width: 45em;
+    height: 48em;
+}
+.section .slide .img7 {
+    width: 45em;
+    height: 48em;
+}
+
+.section .slide .content {
+    position: absolute;
+    bottom: 0;
     margin: 2em;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.714);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(70em);
+    border-radius: 0.5em;
 }
 
-.work2 img {
-    
-    border-radius: 0.5em;
-    margin-top: 3em;
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 30em;
-    height: 20em;
-    grid-column: 2/3;
-    grid-row: 1/2;
+.section .slide:hover .content {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    transform: translateY(0);
 }
 
-.work3 img {
-    border-radius: 0.5em;
-    margin: 4em;
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-
-.work4 img {
-    border-radius: 0.5em;
-    margin-top: 4em;
-    margin-left: 2em;
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.work5 img {
-    border-radius: 0.5em;
-    width: 15em;
-    height: 15em;
-    margin-left: 10em;
-    margin-top: 4.5em;
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-.work6 img {
-    border-radius: 0.5em;
-    width: 15.5em;
-    height: 15.5em;
-    margin-left: 4.5em;
-    margin-top: 4.5em;
-    grid-column: 3/4;
-    grid-row: 2/3;
-}
-.work7 img {
-    border-radius: 0.5em;
-    width: 17em;
-    height: 23em;
-    margin-top: -2em;
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-
-.work8 img {
-    border-radius: 0.5em;
-    width: 20em;
-    height: 18em;
-    margin-left: 8em;
-    margin-top: 1em;
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
 
                                     /****************** FIN DE SECTION PORTFOLIO *********************/
 
@@ -691,9 +710,11 @@ button em {
 
 .contact {
     margin: 8em;
+    margin-top: 65em;
 }
 
 .grosh2 {
+    margin-top: 1em;
     font-size: 6em;
     opacity: 30%;
     color: #320c30;
@@ -865,4 +886,4 @@ footer a:hover {
     border-bottom: 0.2em solid #e606b2;
 }
 
-
+                            /*******************MEDIA QUERIES**********************/
