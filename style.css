@@ -7,6 +7,36 @@ body {
     background: linear-gradient(to right, #89253e, #3a6186);            
 }
 
+.social-call{
+    position: absolute;
+    width: 100%;
+    color: rgb(255, 0, 0);
+}
+
+.social{
+    margin-top: 44em;
+    margin-left: 39em;
+    float: left;
+}
+
+.social a{
+    font-size: 3em;
+    padding: 0.5em;
+    color: #3a6186;
+}
+
+.fa-whatsapp {
+    color: white;
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-linkedin {
+    color: #fff;
+}
+
                                   /******************* HEADER ***********************/
 
 nav {
@@ -31,7 +61,7 @@ nav a:hover {
 ul {
     list-style-type: none;
     margin-top: 3em;
-    margin-left: 20em;
+    margin-left: 30em;
     font-size: 1.4em;
 }
 
@@ -42,11 +72,9 @@ li {
     margin-right: 1em;
     margin-left: 1em;
 }
-.logo-header .logo {
-    margin-left: 4em;
-}
 
 .logo-header .logo {
+    margin-left: 4em;
     width: 10em;
 }
 
@@ -130,10 +158,10 @@ span {
 }
 
 .Objectif img {
-    width: 35em;
+    width: 30em;
     height: 40em;
     position: absolute;
-    margin-left: 50em;
+    margin-left: 55em;
     margin-top: -32em;
          
 }
@@ -599,8 +627,8 @@ button em {
     color: #fff;
     text-align: justify;
     margin-top: -5em;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 6em;
+    margin-right: 6em;
 }
 
 .text ::first-letter {
@@ -858,6 +886,18 @@ form {
     width: 10em;
     height: 2em;
     padding-left: 2em;
+}
+
+#scroll_to_top {
+    position: fixed;
+    width: 2em;
+    height: 2em;
+    bottom: 12em;
+    right: 5em;
+}
+
+  #scroll_to_top img {
+    width: 3em;
 }
 
 .footer {
