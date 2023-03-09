@@ -3,21 +3,22 @@ body {
     margin: 0em;
     padding: 0em;
     background: #3a6186;
-    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
-    background: linear-gradient(to right, #89253e, #3a6186);            
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186) no-repeat;
+    background: linear-gradient(to right, #89253e, #3a6186) no-repeat;            
 }
 
 .social-call{
     position: absolute;
+    top: 714px;
+    text-align: center;
     width: 100%;
-    color: rgb(255, 0, 0);
 }
 
-.social{
-    margin-top: 44em;
-    margin-left: 39em;
-    float: left;
-}
+/*@media screen and (max-width: 1000px) {
+    .social {
+        margin-left: 23em;
+    }
+}*/
 
 .social a{
     font-size: 3em;
@@ -96,7 +97,7 @@ hr {
 
 .à-propos {
     color: #fff;
-    margin: 2em;
+    padding: 2em;
 }
 
 .titre-header h1 {
@@ -162,7 +163,7 @@ span {
     height: 40em;
     position: absolute;
     margin-left: 55em;
-    margin-top: -32em;
+    margin-top: -24em;
          
 }
 
@@ -176,20 +177,7 @@ span {
                                                 /*************** USER-1 ***********************/
 
 .parcours {
-    margin-top: 14em;
-}
-
-.img-user1 img {
-    border-radius: 0.5em;
-    margin-left: 7em;
-    margin-top: 5em;
-    width: 26em;
-    height: 16em;
-    box-shadow: 0.4em 0.4em 2em;
-}
-
-.img-user1 :hover {
-    transform: perspective(50em) rotateY(30deg); 
+    margin-top: 26em;
 }
 
 .h2-gros {
@@ -205,6 +193,19 @@ span {
     margin-top: -3em;
     margin-bottom: 2.5em;
     color: #320c30;
+}
+
+.img-user1 img {
+    border-radius: 0.5em;
+    margin-left: 7em;
+    margin-top: 5em;
+    width: 26em;
+    height: 18em;
+    box-shadow: 0.4em 0.4em 2em;
+}
+
+.img-user1 :hover {
+    transform: perspective(50em) rotateY(30deg); 
 }
 
 button {
@@ -245,6 +246,7 @@ button em {
     margin-top: 1em;
     background-color: #0561a4;
 }
+  
 
                             /****************** HTML 5 **************/
 .fa-html5 {
@@ -266,6 +268,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load 5s normal forwards;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 50%; }
 }
 
 .progress-1 h3 {
@@ -296,6 +304,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load1 5s normal forwards;
+}
+
+@keyframes load1 {
+    0% { width: 0; }
+    100% { width: 35%; }
 }
 
 .progress-2 h3 {
@@ -326,6 +340,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load2 5s normal forwards;
+}
+
+@keyframes load2 {
+    0% { width: 0; }
+    100% { width: 20%; }
 }
 
 .progress-3 h3 {
@@ -356,6 +376,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load3 5s normal forwards;
+}
+
+@keyframes load3 {
+    0% { width: 0; }
+    100% { width: 75%; }
 }
 
 .progress-4 h3 {
@@ -386,6 +412,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load4 5s normal forwards;
+}
+
+@keyframes load4 {
+    0% { width: 0; }
+    100% { width: 85%; }
 }
 
 .progress-5 h3 {
@@ -421,7 +453,7 @@ button em {
     margin-left: 60em;
     margin-top: 5em;
     width: 26em;
-    height: 16em;
+    height: 18em;
     box-shadow: 0.2em 0.2em 0.4em;
 }
                             
@@ -469,6 +501,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load5 5s normal forwards;
+}
+
+@keyframes load5 {
+    0% { width: 0; }
+    100% { width: 50%; }
 }
 
 .progress-6 h3 {
@@ -499,6 +537,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load6 5s normal forwards;
+}
+
+@keyframes load6 {
+    0% { width: 0; }
+    100% { width: 55%; }
 }
 
 .progress-7 h3 {
@@ -529,6 +573,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load7 5s normal forwards;
+}
+
+@keyframes load7 {
+    0% { width: 0; }
+    100% { width: 70%; }
 }
 
 .progress-8 h3 {
@@ -559,6 +609,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load8 5s normal forwards;
+}
+
+@keyframes load8 {
+    0% { width: 0; }
+    100% { width: 75%; }
 }
 
 .progress-9 h3 {
@@ -589,6 +645,12 @@ button em {
     border-radius: 0.6em;
     margin-top: -1em;
     background-color: #e606b2;
+    animation: load9 5s normal forwards;
+}
+
+@keyframes load9 {
+    0% { width: 0; }
+    100% { width: 65%; }
 }
 
 .progress-10 h3 {
@@ -601,6 +663,7 @@ button em {
                                  /****************** FIN DE SECTION PARCOURS *********************/
 
                                  /****************** SECTION REALISATIONS *********************/
+
 
 .portfolio {
     width: 100%;
@@ -939,3 +1002,4 @@ footer a:hover {
 }
 
                             /*******************MEDIA QUERIES**********************/
+
