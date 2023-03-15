@@ -747,10 +747,10 @@ h4 {
     width: 45em;
     height: 48em;
 }
-.section .slide .img2 {
+/*.section .slide .img2 {
     width: 45em;
     height: 48em;
-}
+}*/
 .section .slide .img3 {
     width: 45em;
     height: 48em;
@@ -759,14 +759,14 @@ h4 {
     width: 45em;
     height: 48em;
 }
-.section .slide .img5 {
+/*.section .slide .img5 {
     width: 45em;
     height: 48em;
 }
 .section .slide .img6 {
     width: 45em;
     height: 48em;
-}
+}*/
 .section .slide .img7 {
     width: 45em;
     height: 48em;
@@ -1000,6 +1000,3 @@ footer a:hover {
     color: #e606b2;
     border-bottom: 0.2em solid #e606b2;
 }
-
-                            /*******************MEDIA QUERIES**********************/
-
